@@ -27,7 +27,7 @@ el.className = 'offer';
 
 
 el.innerHTML = `
-${offer.badge ? `<div class="offer-badge">
+${offer.badge ? `<div class="badge">
   <img src="${offer.badge}" alt="${offer.brand} logo">
 </div>` : ''}
 <h3>${offer.brand}</h3>
@@ -59,3 +59,4 @@ container.appendChild(el);
 });
 
 })();
+
