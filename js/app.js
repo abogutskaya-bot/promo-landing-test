@@ -27,9 +27,7 @@ el.className = 'offer';
 
 
 el.innerHTML = `
-${offer.badge ? `<div class="badge">
-  <img src="${offer.badge}" alt="${offer.brand} logo">
-</div>` : ''}
+${offer.badge ? `<img class="badge" src="${offer.badge}" alt="${offer.brand} logo">` : ''}
 <h3>${offer.brand}</h3>
 <p>${offer.description}</p>
 <p class="promo" data-code="${offer.promo_code}">Промокод: ${offer.promo_code}</p>
@@ -59,4 +57,5 @@ container.appendChild(el);
 });
 
 })();
+
 
