@@ -1,0 +1,12 @@
+[
+{
+"id": "offer_1",
+"brand": "Rozetka",
+"description": "Знижка на популярні товари",
+"promo_code": "SALE20",
+"valid_until": "2025-12-31",
+"cta_text": "Перейти до магазину",
+"url": "https://go.salesdoubler.net/in/offer/1234?aid=5678",
+"badge": "-20%"
+}
+]

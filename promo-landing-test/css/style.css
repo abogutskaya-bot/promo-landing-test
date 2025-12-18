@@ -1,0 +1,91 @@
+* { box-sizing: border-box; }
+
+
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background: #f7f7f7;
+color: #222;
+}
+
+
+.container {
+max-width: 960px;
+margin: 0 auto;
+padding: 24px 16px;
+}
+
+
+.hero {
+text-align: center;
+margin-bottom: 32px;
+}
+
+
+.offers {
+display: grid;
+grid-template-columns: 1fr;
+gap: 16px;
+}
+
+
+.offer {
+background: #fff;
+padding: 20px;
+border-radius: 8px;
+box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+
+.offer h3 { margin-top: 0; }
+
+
+.badge {
+display: inline-block;
+background: #111;
+color: #fff;
+padding: 4px 8px;
+border-radius: 4px;
+font-size: 12px;
+margin-bottom: 8px;
+}
+
+
+.promo {
+font-weight: bold;
+cursor: pointer;
+user-select: none;
+}
+
+
+.cta {
+display: inline-block;
+margin-top: 12px;
+padding: 10px 16px;
+background: #111;
+color: #fff;
+text-decoration: none;
+border-radius: 4px;
+}
+
+
+.toast {
+position: fixed;
+bottom: 24px;
+left: 50%;
+transform: translateX(-50%);
+background: #111;
+color: #fff;
+padding: 10px 16px;
+border-radius: 4px;
+opacity: 0;
+transition: opacity 0.3s;
+}
+
+
+.toast.show { opacity: 1; }
+
+
+@media (min-width: 768px) {
+.offers { grid-template-columns: repeat(2, 1fr); }
+}
