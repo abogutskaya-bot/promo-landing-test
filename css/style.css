@@ -43,7 +43,10 @@ box-shadow: 0 2px 6px rgba(0,0,0,0.05);
 .badge {
   max-width: 120px;
   max-height: 40px;
+
   object-fit: contain;
+
+  background: transparent;
 }
 
 
@@ -86,3 +89,4 @@ transition: opacity 0.3s;
 .offers { grid-template-columns: repeat(2, 1fr); }
 
 }
+
