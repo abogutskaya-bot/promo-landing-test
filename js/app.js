@@ -31,6 +31,7 @@ ${offer.badge ? `<img class="badge" src="${offer.badge}" alt="${offer.brand} log
 <h3>${offer.brand}</h3>
 <p>${offer.description}</p>
 <p class="promo" data-code="${offer.promo_code}">Промокод: ${offer.promo_code}</p>
+<p>Діє з: ${offer.valid_from}</p>
 <p>Діє до: ${offer.valid_until}</p>
 <a href="${offer.url}" class="cta" target="_blank">${offer.cta_text}</a>
 `;
@@ -57,5 +58,6 @@ container.appendChild(el);
 });
 
 })();
+
 
 
