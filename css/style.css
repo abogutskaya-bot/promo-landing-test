@@ -41,13 +41,9 @@ box-shadow: 0 2px 6px rgba(0,0,0,0.05);
 
 
 .badge {
-display: inline-block;
-background: #111;
-color: #fff;
-padding: 4px 8px;
-border-radius: 4px;
-font-size: 12px;
-margin-bottom: 8px;
+  max-width: 120px;
+  max-height: 40px;
+  object-fit: contain;
 }
 
 
@@ -88,4 +84,5 @@ transition: opacity 0.3s;
 
 @media (min-width: 768px) {
 .offers { grid-template-columns: repeat(2, 1fr); }
+
 }
