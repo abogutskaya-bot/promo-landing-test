@@ -1,12 +1,57 @@
 [
 {
-"id": "offer_1",
-"brand": "Rozetka",
-"description": "Знижка на популярні товари",
-"promo_code": "SALE20",
-"valid_until": "2025-12-31",
+"id": "3100",
+"brand": "Christmas Sale ✨",
+"description": "💎 Знижки до -25% на прикраси",
+"promo_code": null,
+"valid_until": "2026-01-05",
 "cta_text": "Перейти до магазину",
-"url": "https://go.salesdoubler.net/in/offer/1234?aid=5678",
-"badge": "-20%"
+"url": "https://go.salesdoubler.net/in/offer/3100?aid=93200&promotion_id=13169&dlink=https%3A%2F%2Foniks.ua%2Fua%2F",
+"badge": "https://d1h2506vp3skew.cloudfront.net/offer_groups/logos/000/003/100/original/oniks.svg"
 }
+
+{
+"id": "1310",
+"brand": "Акція 3=9",
+"description": "Купуй будь-які 3 аромати та отримай 6 подарунків!",
+"promo_code": null,
+"valid_until": "2026-12-31",
+"cta_text": "Перейти до магазину",
+"url": "https://go.salesdoubler.net/in/offer/1310?aid=93200",
+"badge": "https://d1h2506vp3skew.cloudfront.net/offer_groups/logos/000/001/310/original/logo901.png.svg?1674133522"
+}
+
+{
+"id": "1542",
+"brand": "Знижка 3% на всі ноутбуки, крім Apple",
+"description": "Знижка 3% на всі ноутбуки, крім Apple\r\nНе діє на акційні товари і оплату частинами",
+"promo_code": "NOTESD ",
+"valid_until": "2026-12-31",
+"cta_text": "Перейти до магазину",
+"url": "https://rdr.fmcgsd.net/in/offer/1542?aid=93200&promotion_id=8708&dlink=https%3A%2F%2Fitmag.ua%2Fua%2F",
+"badge": "https://d1h2506vp3skew.cloudfront.net/offer_groups/logos/000/001/542/original/logo-group.png.svg"
+}
+
+{
+"id": "2854",
+"brand": "5%  на все",
+"description": "5%  на все",
+"promo_code": "sale",
+"valid_until": "2026-12-31",
+"cta_text": "Перейти до магазину",
+"url": "https://rdr.fmcgsd.net/in/offer/2854?aid=93200&promotion_id=12287&dlink=https%3A%2F%2Fmiris.store%2F",
+"badge": "https://d1h2506vp3skew.cloudfront.net/offer_groups/logos/000/002/854/original/miris.svg"
+}
+
+{
+"id": "3130",
+"brand": "Безкоштовна доставка Укрпоштою для замовлень від 349 грн",
+"description": "Замовляйте книжки на суму від 349 грн – і користуйтеся безкоштовною доставкою до будь-якого відділення Укрпошти.",
+"promo_code": null,
+"valid_until": "2026-12-31",
+"cta_text": "Перейти до магазину",
+"url": "https://rdr.fmcgsd.net/in/offer/3130?aid=93200",
+"badge": "https://d1h2506vp3skew.cloudfront.net/offer_groups/logos/000/003/130/original/site-logo.svg?1678867169"
+}
+
 ]
